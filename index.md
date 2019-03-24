@@ -4,7 +4,7 @@
 
 layout: default
 ---
-
+What is the purpose of this page, thie website, the Internet, and the universe as a whole?
 
 
 
