@@ -3,8 +3,32 @@
 
 @import "{{ site.theme }}";
 
-.page-header {
+/* .page-header {
   color: #ffff;
   background-color: #A067AB;
   background-image: linear-gradient(90deg, #0071C5, #64AE64);
+} 
+*/
+
+.page-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: url("https://a.chihi.ro/pwimi7.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.page-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: MidnightBlue;
+    opacity: 0.3;
+}
+
