@@ -4,6 +4,9 @@
 
 layout: default
 ---
+<style>
+ul { list-style: none; }
+</style>
 <ul>
   {% for post in site.posts %}
     <li>
