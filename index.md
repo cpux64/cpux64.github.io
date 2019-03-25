@@ -18,9 +18,8 @@ layout: default
             {{ post.title }}
           </a>
 		</h1>
-		<h6>
-          <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-		</h6>
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+		<hr>
 	    <p>
 	      {{ post.content }}
 		</p>
