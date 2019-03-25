@@ -18,7 +18,7 @@
     background-size: cover;
 }
 
-page-header::before {
+.page-header::before {
     content: "";
     position: absolute;
     top: 0;
