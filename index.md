@@ -19,10 +19,10 @@ layout: default
           </a>
 		</h1>
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-		<hr>
 	    <p>
 	      {{ post.content }}
 		</p>
+		<hr>
       </li>
     {% endfor %}
   </ul>
