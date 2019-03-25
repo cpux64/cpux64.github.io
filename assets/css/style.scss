@@ -28,13 +28,13 @@
     background-size: cover;
 }
 
-.container {
+.body {
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE 10+ */
 }
 
-.container::-webkit-scrollbar { /* WebKit */
+.body::-webkit-scrollbar { /* WebKit */
     width: 0;
     height: 0;
 }
