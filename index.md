@@ -5,7 +5,9 @@
 layout: default
 ---
 <style>
-ul { list-style: none; }
+ul { list-style: none;
+     padding-left: 0; 
+}
 </style>
 <ul>
   {% for post in site.posts %}
@@ -14,6 +16,8 @@ ul { list-style: none; }
         {{ post.title }}
       </a>
       - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+	  <p>
+	    {{ post.content }}
     </li>
   {% endfor %}
 </ul>
