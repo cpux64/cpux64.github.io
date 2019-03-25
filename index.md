@@ -5,6 +5,7 @@
 layout: home
 ---
 
+What is the purpose of this page, this website, the Internet, and the digital world as a whole?
 
 
 
