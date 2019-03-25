@@ -4,23 +4,27 @@
 
 layout: default
 ---
-<style>
-ul { list-style: none;
-     padding-left: 0; 
-}
-</style>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-      - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-	  <p>
-	    {{ post.content }}
-    </li>
-  {% endfor %}
-</ul>
+<main>
+  <style>
+  ul { list-style: none;
+       padding-left: 0; 
+  }
+  </style>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <h1>  
+		  <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+		</h1>
+        - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+	    <p>
+	      {{ post.content }}
+      </li>
+    {% endfor %}
+  </ul>
+</main>
 
 ###### What is the purpose of this page, this website, the Internet, and the digital world as a whole?
 
