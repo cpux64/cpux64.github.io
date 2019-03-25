@@ -4,8 +4,18 @@
 
 layout: default
 ---
+<h1>Latest Posts</h1>
 
-What is the purpose of this page, this website, the Internet, and the digital world as a whole?
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+###### What is the purpose of this page, this website, the Internet, and the digital world as a whole?
 
 
 
