@@ -16,7 +16,7 @@
 title: cpux64/x86
 email: seepucks@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A living enigma of sorts, I'd say.
+  I have no idea
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
